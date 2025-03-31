@@ -1,0 +1,153 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    padding: 20px;
+}
+
+.container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 400px;
+    max-width: 90%;
+    transition: 0.3s;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+h2 {
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.amount {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.amount p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.amount input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.amount input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.from, .to {
+    text-align: left;
+    flex: 1;
+}
+
+.dropdown p {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 500;
+}
+
+.select-container {
+    display: flex;
+    align-items: center;
+    background: #f8f9fa;
+    border-radius: 6px;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.select-container img {
+    width: 30px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.select-container select {
+    border: none;
+    background: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    flex: 1;
+}
+
+.fa-arrow-right-arrow-left {
+    font-size: 18px;
+    color: #007bff;
+    margin: 0 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 1.5rem;
+}
+
+.fa-arrow-right-arrow-left:hover {
+    transform: rotate(180deg);
+}
+
+.msg {
+    font-size: 16px;
+    font-weight: 600;
+    color: #222;
+    background: #f1f1f1;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #0056b3;
+    transform: translateY(-2px);
+}
